@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="stepdef.TestRunner" time="5.767" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="stepdef.TestRunner" time="6.228" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Adding the product into cart Scenario from SauceLabs Application" name="This scenario is to add the product into cart" time="2.78"/>
-  <testcase classname="Sauce Lab Login Feature Scenario" name="This scenario is to define the login happy path" time="1.549"/>
-  <testcase classname="Sauce Lab Login Feature Scenario" name="This scenario is to define the failure path" time="1.438"/>
+  <testcase classname="Adding the product into cart Scenario from SauceLabs Application" name="This scenario is to add the product into cart" time="3.423"/>
+  <testcase classname="Sauce Lab Login Feature Scenario" name="This scenario is to define the login happy path" time="1.385"/>
+  <testcase classname="Sauce Lab Login Feature Scenario" name="This scenario is to define the failure path" time="1.42"/>
 </testsuite>

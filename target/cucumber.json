@@ -1,0 +1,339 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1010838100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-20T15:02:18.487Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1546446400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "This scenario is to add the product into cart",
+        "description": "",
+        "id": "adding-the-product-into-cart-scenario-from-saucelabs-application;this-scenario-is-to-add-the-product-into-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 101764000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 220563800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username as \u0027standard_user\u0027 and password as \u0027secret_sauce\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027standard_user\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027secret_sauce\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "stepdef.LoginStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112605000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61355300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on add to cart product on \"Sauce Labs Bolt T-Shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Bolt T-Shirt\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdef.AddProductStepDef.i_click_on_add_to_cart_product_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35202700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the basket number should be \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdef.AddProductStepDef.the_basket_number_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Adding the product into cart Scenario from SauceLabs Application",
+    "description": "",
+    "id": "adding-the-product-into-cart-scenario-from-saucelabs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddProduct.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-20T15:02:21.647Z",
+        "before": [
+          {
+            "result": {
+              "duration": 642006500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This scenario is to define the login happy path",
+        "description": "",
+        "id": "sauce-lab-login-feature-scenario;this-scenario-is-to-define-the-login-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 84585400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 357669500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161334300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username as \u0027standard_user\u0027 and password as \u0027secret_sauce\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027standard_user\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027secret_sauce\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "stepdef.LoginStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128713300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-20T15:02:23.031Z",
+        "before": [
+          {
+            "result": {
+              "duration": 659616300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "This scenario is to define the failure path",
+        "description": "",
+        "id": "sauce-lab-login-feature-scenario;this-scenario-is-to-define-the-failure-path",
+        "after": [
+          {
+            "result": {
+              "duration": 93874300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 368039400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166132100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the username as \u0027standard_user\u0027 and password as \u0027secret\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027standard_user\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027secret\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "stepdef.LoginStepDef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76511000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "stepdef.LoginStepDef.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46486700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdef.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Sauce Lab Login Feature Scenario",
+    "description": "",
+    "id": "sauce-lab-login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LabLogin.feature",
+    "tags": []
+  }
+]

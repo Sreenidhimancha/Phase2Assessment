@@ -1,2 +1,5 @@
 stepdef\LoginStepDef.class
+stepdef\AddProductStepDef.class
+stepdef\Hooks.class
+stepdef\TestRunner.class
 com\simplilearn\Assessment2\AppTest.class
